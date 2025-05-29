@@ -5,8 +5,7 @@ const Landing: React.FC =  () => {
     <div>
         <h1 className=" text-xl font-extralight">Landing Page</h1>
         <Card />
-        <div className="mt-8 flex flex-col gap-4">
-            <h2 className="text-lg font-bold">Reusable Buttons</h2>
+        <div className="mt-8 flex gap-4">
             <Button title="Small Rounded-sm" styles="text-sm rounded-sm" />
             <Button title="Medium Rounded-md" styles="text-base rounded-md" />
             <Button title="Large Rounded-full" styles="text-lg rounded-full" />
