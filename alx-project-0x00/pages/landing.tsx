@@ -5,11 +5,9 @@ const Landing: React.FC =  () => {
     <div>
         <h1 className=" text-xl font-extralight">Landing Page</h1>
         <Card />
-        <div className="mt-8 flex gap-4">
-            <Button title="Small Rounded-sm" styles="rounded-sm" />
-            <Button title="Medium Rounded-md" styles="rounded-md" />
-            <Button title="Large Rounded-full" styles="rounded-full" />
-        </div>
+        <Button title="Contact" styles="rounded-sm" />
+        <Button title="Connect" styles="rounded-md" />
+        <Button title="Buy Now" styles="rounded-full" />
     </div>
   )
 }
