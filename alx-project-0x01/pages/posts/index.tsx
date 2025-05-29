@@ -1,10 +1,10 @@
 import React from 'react';
-import PostCard from '../../components/common/PostCard';
+import Header from '../../components/layout/Header';
+
 
 const PostsPage: React.FC = () => (
-  <div className="p-10">
-    <h1 className="text-2xl mb-4">Posts Page</h1>
-    <PostCard />
+  <div className="flex flex-col h-screen">
+    <Header />
   </div>
 );
 
