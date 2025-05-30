@@ -1,37 +1,26 @@
-# alx-project-0x00
+# ALX Project 0x01 - User Management App
 
-This project is the initial scaffold for an Airbnb clone using **Next.js**, **TypeScript**, **Tailwind CSS**, and **ESLint**. It follows the ALX frontend project guidelines.
-
----
-
-## 🚀 Project Objective
-
-The goal of this project is to understand how to scaffold a Next.js project using the `npx create-next-app` CLI tool with specific configurations.
+A modern web application built with **Next.js 13+**, **TypeScript**, and **TailwindCSS**, designed to manage users and posts through a clean interface, reusable components, and well-structured modular design.
 
 ---
 
-## 🧰 Prerequisites
+## 🚀 Features
 
-Ensure the following are installed:
-
-- Node.js (v18 or higher recommended)
-- npm (v9+)
-- Git
-- Visual Studio Code
+- View a list of users and posts
+- Add new users via a modal form
+- Reusable modal components
+- Responsive design with TailwindCSS
+- Modular architecture for scalability
+- Strong typing with TypeScript
 
 ---
 
-## 🛠️ Project Setup
+## 🛠️ Tech Stack
 
-1. **Open VS Code**
-   - Launch a new instance of VS Code.
+- **Next.js 13+**
+- **React**
+- **TypeScript**
+- **TailwindCSS**
+- **ESLint & Prettier** for code quality
 
-2. **Open Terminal**
-   - Navigate to your desired directory:  
-     ```bash
-     cd path/to/your/projects
-     ```
-
-3. **Run the scaffolding command**
-   ```bash
-   npx create-next-app@latest alx-project-0x00 --typescript
+---
